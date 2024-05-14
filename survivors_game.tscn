@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://ba5l50fa41m70"]
 
+[ext_resource type="Script" path="res://survivors_game.gd" id="1_6y6wp"]
 [ext_resource type="PackedScene" uid="uid://bckyn062wm7v4" path="res://player.tscn" id="1_aktsg"]
 [ext_resource type="PackedScene" uid="uid://tyv7ucdh4cua" path="res://pine_tree.tscn" id="2_5l7mw"]
-[ext_resource type="PackedScene" uid="uid://xh8ekxn3xleb" path="res://mob.tscn" id="3_1hteu"]
 
 [sub_resource type="Curve2D" id="Curve2D_bjfmy"]
 _data = {
@@ -12,6 +12,7 @@ point_count = 5
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
+script = ExtResource("1_6y6wp")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -30
@@ -22,6 +23,14 @@ offset_bottom = 1073.0
 
 [node name="Player" parent="." instance=ExtResource("1_aktsg")]
 position = Vector2(848, 559)
+
+[node name="Path2D" type="Path2D" parent="Player"]
+position = Vector2(-805, -561)
+curve = SubResource("Curve2D_bjfmy")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
+unique_name_in_owner = true
+position = Vector2(-229, -237)
 
 [node name="PineTree" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(381, 302)
@@ -62,24 +71,37 @@ position = Vector2(182, 113)
 [node name="PineTree13" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(543, 511)
 
-[node name="Mob" parent="." instance=ExtResource("3_1hteu")]
-position = Vector2(559, 287)
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.3
+autostart = true
 
-[node name="Mob2" parent="." instance=ExtResource("3_1hteu")]
-position = Vector2(1081, 395)
+[node name="GameOver" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+visible = false
 
-[node name="Mob3" parent="." instance=ExtResource("3_1hteu")]
-position = Vector2(600, 763)
+[node name="ColorRect" type="ColorRect" parent="GameOver"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.541176)
 
-[node name="Mob4" parent="." instance=ExtResource("3_1hteu")]
-position = Vector2(1124, 659)
+[node name="Label" type="Label" parent="GameOver/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -11.5
+offset_right = 43.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 156
+text = "Game Over"
 
-[node name="Mob5" parent="." instance=ExtResource("3_1hteu")]
-position = Vector2(343, 575)
-
-[node name="Path2D" type="Path2D" parent="."]
-position = Vector2(43, -2)
-curve = SubResource("Curve2D_bjfmy")
-
-[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
-position = Vector2(-229, -237)
+[connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

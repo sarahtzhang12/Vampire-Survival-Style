@@ -8,6 +8,7 @@
 radius = 32.0156
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ajf0y"]
+radius = 28.0713
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhe2j"]
 bg_color = Color(0.168627, 0.168627, 0.168627, 1)
@@ -41,6 +42,8 @@ position = Vector2(92, 12)
 
 [node name="HurtBox" type="Area2D" parent="."]
 unique_name_in_owner = true
+collision_layer = 0
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
 shape = SubResource("CircleShape2D_ajf0y")
