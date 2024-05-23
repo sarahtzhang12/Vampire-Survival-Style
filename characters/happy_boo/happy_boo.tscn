@@ -1,12 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://pbmyh1qru7p"]
+[gd_scene load_steps=11 format=3 uid="uid://pbmyh1qru7p"]
 
 [ext_resource type="Script" path="res://characters/happy_boo/happy_boo.gd" id="1_kg7lb"]
 [ext_resource type="Texture2D" uid="uid://b7rhtttevhxtj" path="res://characters/ground_shadow.png" id="2_62bos"]
 [ext_resource type="Texture2D" uid="uid://ng8e5ot0dtpd" path="res://characters/happy_boo/square_foot.png" id="3_186qq"]
 [ext_resource type="Texture2D" uid="uid://dhapxq8y8ow57" path="res://characters/happy_boo/square_lower_leg.png" id="4_plnsd"]
 [ext_resource type="Texture2D" uid="uid://qmqpm6asge1i" path="res://characters/happy_boo/square_upper_leg.png" id="5_q2t1e"]
-[ext_resource type="Texture2D" uid="uid://cksiu5gst6fmp" path="res://characters/happy_boo/square_body.png" id="6_w3ck4"]
-[ext_resource type="Texture2D" uid="uid://cvs0lh814pk7h" path="res://characters/happy_boo/square_face.png" id="7_h5h8s"]
+[ext_resource type="Texture2D" uid="uid://b34kl5mjr57qy" path="res://image-modified.png" id="6_pv7xw"]
 
 [sub_resource type="Animation" id="Animation_hed62"]
 length = 0.001
@@ -157,50 +156,26 @@ tracks/11/keys = {
 tracks/12/type = "value"
 tracks/12/imported = false
 tracks/12/enabled = true
-tracks/12/path = NodePath("Colorizer/SquareBody:position")
+tracks/12/path = NodePath("Colorizer/SquareBody:rotation")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(-1.73067, -36.6061)]
+"values": [-0.0250386]
 }
 tracks/13/type = "value"
 tracks/13/imported = false
 tracks/13/enabled = true
-tracks/13/path = NodePath("Colorizer/SquareBody:rotation")
+tracks/13/path = NodePath("Colorizer/SquareBody:position")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [-0.0250386]
-}
-tracks/14/type = "value"
-tracks/14/imported = false
-tracks/14/enabled = true
-tracks/14/path = NodePath("Colorizer/SquareBody/SquareFace:position")
-tracks/14/interp = 1
-tracks/14/loop_wrap = true
-tracks/14/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(0, -17)]
-}
-tracks/15/type = "value"
-tracks/15/imported = false
-tracks/15/enabled = true
-tracks/15/path = NodePath("Colorizer/SquareBody/SquareFace:rotation")
-tracks/15/interp = 1
-tracks/15/loop_wrap = true
-tracks/15/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
+"values": [Vector2(-1.73067, -36.6061)]
 }
 
 [sub_resource type="Animation" id="Animation_sablf"]
@@ -353,50 +328,26 @@ tracks/11/keys = {
 tracks/12/type = "value"
 tracks/12/imported = false
 tracks/12/enabled = true
-tracks/12/path = NodePath("Colorizer/SquareBody:position")
+tracks/12/path = NodePath("Colorizer/SquareBody:rotation")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
-"times": PackedFloat32Array(0, 0.4, 0.8),
-"transitions": PackedFloat32Array(0.466516, 0.189465, 1),
-"update": 0,
-"values": [Vector2(-1.73067, -36.6061), Vector2(-1.731, -32), Vector2(-1.731, -38)]
-}
-tracks/13/type = "value"
-tracks/13/imported = false
-tracks/13/enabled = true
-tracks/13/path = NodePath("Colorizer/SquareBody:rotation")
-tracks/13/interp = 1
-tracks/13/loop_wrap = true
-tracks/13/keys = {
 "times": PackedFloat32Array(0, 0.4),
 "transitions": PackedFloat32Array(2.46229, 0.535887),
 "update": 0,
 "values": [-0.0250386, 0.0698132]
 }
-tracks/14/type = "value"
-tracks/14/imported = false
-tracks/14/enabled = true
-tracks/14/path = NodePath("Colorizer/SquareBody/SquareFace:position")
-tracks/14/interp = 1
-tracks/14/loop_wrap = true
-tracks/14/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Colorizer/SquareBody:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8),
+"transitions": PackedFloat32Array(0.466516, 0.189465, 1),
 "update": 0,
-"values": [Vector2(0, -17)]
-}
-tracks/15/type = "value"
-tracks/15/imported = false
-tracks/15/enabled = true
-tracks/15/path = NodePath("Colorizer/SquareBody/SquareFace:rotation")
-tracks/15/interp = 1
-tracks/15/loop_wrap = true
-tracks/15/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
+"values": [Vector2(-1.73067, -36.6061), Vector2(-1.731, -32), Vector2(-1.731, -38)]
 }
 
 [sub_resource type="Animation" id="Animation_74kqe"]
@@ -551,26 +502,26 @@ tracks/11/keys = {
 tracks/12/type = "value"
 tracks/12/imported = false
 tracks/12/enabled = true
-tracks/12/path = NodePath("Colorizer/SquareBody:position")
+tracks/12/path = NodePath("Colorizer/SquareBody:rotation")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(-1.73067, -36.6061)]
-}
-tracks/13/type = "value"
-tracks/13/imported = false
-tracks/13/enabled = true
-tracks/13/path = NodePath("Colorizer/SquareBody:rotation")
-tracks/13/interp = 1
-tracks/13/loop_wrap = true
-tracks/13/keys = {
 "times": PackedFloat32Array(0, 0.166667, 0.3, 0.466667),
 "transitions": PackedFloat32Array(0.392292, 1.31951, 0.267943, 1.8025),
 "update": 0,
 "values": [-0.0250386, -0.209487, 0.0372028, 0.23927]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Colorizer/SquareBody:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.73067, -36.6061)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_wrcpu"]
@@ -581,6 +532,7 @@ _data = {
 }
 
 [node name="HappyBoo" type="Node2D"]
+position = Vector2(0, 13)
 script = ExtResource("1_kg7lb")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -599,12 +551,13 @@ texture = ExtResource("2_62bos")
 metadata/_edit_lock_ = true
 
 [node name="Colorizer" type="Node2D" parent="."]
-modulate = Color(1, 0.572549, 0.176471, 1)
+modulate = Color(0.921569, 0.698039, 0.364706, 1)
+self_modulate = Color(0.215902, 0.215902, 0.215902, 1)
 
 [node name="SquareUpperLegL" type="Sprite2D" parent="Colorizer"]
 position = Vector2(-10.6303, -27.3998)
 rotation = 0.4009
-scale = Vector2(0.997829, 0.999794)
+scale = Vector2(0.997829, 1.26877)
 texture = ExtResource("5_q2t1e")
 offset = Vector2(0, 6)
 
@@ -623,7 +576,7 @@ offset = Vector2(-4, 0)
 [node name="SquareUpperLegR" type="Sprite2D" parent="Colorizer"]
 position = Vector2(9.20459, -29.9444)
 rotation = -0.213676
-scale = Vector2(0.999794, 0.999794)
+scale = Vector2(0.999794, 1.25892)
 texture = ExtResource("5_q2t1e")
 offset = Vector2(0, 6)
 
@@ -641,11 +594,6 @@ offset = Vector2(-4, 0)
 [node name="SquareBody" type="Sprite2D" parent="Colorizer"]
 position = Vector2(-1.73067, -36.6061)
 rotation = -0.0250386
-scale = Vector2(0.9842, 0.990263)
-texture = ExtResource("6_w3ck4")
+scale = Vector2(0.176901, 0.163544)
+texture = ExtResource("6_pv7xw")
 offset = Vector2(0, -23)
-
-[node name="SquareFace" type="Sprite2D" parent="Colorizer/SquareBody"]
-position = Vector2(0, -17)
-texture = ExtResource("7_h5h8s")
-metadata/_edit_lock_ = true

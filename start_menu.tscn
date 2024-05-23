@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://doi82ejjxi16o"]
+
+[ext_resource type="Script" path="res://start_menu.gd" id="1_e4b8u"]
+
+[node name="StartMenu" type="MarginContainer"]
+offset_left = 700.0
+offset_top = 508.0
+offset_right = 974.0
+offset_bottom = 660.0
+scale = Vector2(1.62644, 2.09195)
+script = ExtResource("1_e4b8u")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="StartGame" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+text = "Start Game"
+
+[node name="QuitGame" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+text = "Quit"
+
+[connection signal="pressed" from="VBoxContainer/StartGame" to="." method="_on_start_game_pressed"]
+[connection signal="pressed" from="VBoxContainer/QuitGame" to="." method="_on_quit_game_pressed"]

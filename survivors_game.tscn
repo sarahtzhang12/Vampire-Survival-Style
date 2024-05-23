@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://6fm1bbo4fodk"]
+[gd_scene load_steps=7 format=3 uid="uid://6fm1bbo4fodk"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_6y6wp"]
 [ext_resource type="PackedScene" uid="uid://c5dip1ru8jkco" path="res://player.tscn" id="1_aktsg"]
 [ext_resource type="PackedScene" path="res://pine_tree.tscn" id="2_5l7mw"]
+[ext_resource type="AudioStream" uid="uid://fx4yavxmea60" path="res://Penguin/penguin_RIP 01.wav" id="5_44xgs"]
 [ext_resource type="PackedScene" uid="uid://q74s10joqu8l" path="res://level.tscn" id="5_c6vey"]
 
 [sub_resource type="Curve2D" id="Curve2D_bjfmy"]
@@ -105,6 +106,11 @@ theme_override_font_sizes/font_size = 156
 text = "Game Over"
 
 [node name="level" parent="." instance=ExtResource("5_c6vey")]
+
+[node name="Dead" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("5_44xgs")
+volume_db = 20.0
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

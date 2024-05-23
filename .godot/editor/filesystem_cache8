@@ -1,24 +1,32 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715971113
+::res://::1716489122
 Bullet.gd::GDScript::-1::1715885013::0::1::::<>Area2D<>::
 bullet.tscn::PackedScene::-1::1715885013::0::1::::<><>::
+color_rect.tscn::PackedScene::4962845673893039329::1716233146::0::1::::<><>::uid://cbaegx555385e::::res://Yoki Penguin.jpeg<>uid://doi82ejjxi16o::::res://start_menu.tscn
 default_bus_layout.tres::AudioBusLayout::-1::1715885013::0::1::::<><>::
+down .png::CompressedTexture2D::1975226414910864554::1716231588::1716231588::1::::<><>::
+face.jpeg::CompressedTexture2D::2185339388399224695::1716233763::1716233763::1::::<><>::
 gun.gd::GDScript::-1::1715885013::0::1::::<>Area2D<>::
-gun.tscn::PackedScene::72970895313386756::1715971051::0::1::::<><>::uid://cswb5do8rrj7q::::res://pistol/pistol.png<>res://gun.gd
+gun.tscn::PackedScene::72970895313386756::1716233524::0::1::::<><>::uid://cswb5do8rrj7q::::res://pistol/pistol.png<>res://gun.gd
 Health.gd::GDScript::-1::1715885912::0::1::::<>Area2D<>::
-health.tscn::PackedScene::6183960308913407965::1715971051::0::1::::<><>::res://Health.gd<>uid://yoansl4ihfnq::::res://heart.png
+health.tscn::PackedScene::6183960308913407965::1716233524::0::1::::<><>::res://Health.gd<>uid://b40iv2870rg3x::::res://heart-2.png
 heart-2.png::CompressedTexture2D::4474031301258686783::1715971113::1715971113::1::::<><>::
 icon.png::CompressedTexture2D::621515402784007901::1715885013::1715885013::1::::<><>::
+image-modified.png::CompressedTexture2D::4412203668757370328::1716233842::1716233843::1::::<><>::
 level.gd::GDScript::-1::1715887944::0::1::::<>Node2D<>::
-level.tscn::PackedScene::1190875928074441341::1715971051::0::1::::<><>::res://level.gd
+level.tscn::PackedScene::1190875928074441341::1716233524::0::1::::<><>::res://level.gd
 mob.gd::GDScript::-1::1715885013::0::1::::<>CharacterBody2D<>::
 mob.tscn::PackedScene::-1::1715885013::0::1::::<><>::
+penguin.webp::CompressedTexture2D::2704602933716144831::1716231741::1716231741::1::::<><>::
 pine_tree.tscn::PackedScene::-1::1715885013::0::1::::<><>::
-player.gd::GDScript::-1::1715885013::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6885213725462009874::1715971051::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://bbl245w8l4ku::::res://gun.tscn
+player.gd::GDScript::-1::1716233219::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6885213725462009874::1716234253::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://bbl245w8l4ku::::res://gun.tscn
 README.md::TextFile::-1::1715707503::0::1::::<><>::
-survivors_game.gd::GDScript::-1::1715885013::0::1::::<>Node2D<>::
-survivors_game.tscn::PackedScene::2186951130847244704::1715971051::0::1::::<><>::res://survivors_game.gd<>uid://c5dip1ru8jkco::::res://player.tscn<>res://pine_tree.tscn<>uid://q74s10joqu8l::::res://level.tscn
+start_menu.gd::GDScript::-1::1715973888::0::1::::<>MarginContainer<>::
+start_menu.tscn::PackedScene::8160472985677600676::1716230943::0::1::::<><>::res://start_menu.gd
+survivors_game.gd::GDScript::-1::1716231940::0::1::::<>Node2D<>::
+survivors_game.tscn::PackedScene::2186951130847244704::1716234292::0::1::::<><>::res://survivors_game.gd<>uid://c5dip1ru8jkco::::res://player.tscn<>res://pine_tree.tscn<>uid://fx4yavxmea60::::res://Penguin/penguin_RIP 01.wav<>uid://q74s10joqu8l::::res://level.tscn
+Yoki Penguin.jpeg::CompressedTexture2D::4843285049544208004::1716231514::1716231515::1::::<><>::
 ::res://addons/::1715885013
 ::res://addons/colorpicker_presets/::1715885013
 colorpicker_presets.gd::GDScript::-1::1715885013::0::1::::<>EditorPlugin<>::
@@ -26,9 +34,9 @@ plugin.cfg::TextFile::-1::1715885013::0::1::::<><>::
 README.md::TextFile::-1::1715885013::0::1::::<><>::
 ::res://characters/::1715885013
 ground_shadow.png::CompressedTexture2D::4668018078467755571::1715885013::1715885013::1::::<><>::
-::res://characters/happy_boo/::1715885013
+::res://characters/happy_boo/::1716234279
 happy_boo.gd::GDScript::-1::1715885013::0::1::::<>Node2D<>::
-happy_boo.tscn::PackedScene::31049085407951015::1715885013::0::1::::<><>::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
+happy_boo.tscn::PackedScene::31049085407951015::1716234279::0::1::::<><>::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://b34kl5mjr57qy::::res://image-modified.png
 square_body.png::CompressedTexture2D::5512411640973615011::1715885013::1715885013::1::::<><>::
 square_face.png::CompressedTexture2D::6285503871772747319::1715885013::1715885013::1::::<><>::
 square_foot.png::CompressedTexture2D::926853635980280533::1715885013::1715885013::1::::<><>::
@@ -43,6 +51,15 @@ slime_body.png::CompressedTexture2D::8645940357922743702::1715885013::1715885013
 slime_body_hurt.png::CompressedTexture2D::3723476765009385039::1715885013::1715885013::1::::<><>::
 slime_face.png::CompressedTexture2D::6595643196702037820::1715885013::1715885013::1::::<><>::
 slime_hurt_eyes.png::CompressedTexture2D::4791010527445338927::1715885013::1715885013::1::::<><>::
+::res://Penguin/::1716232569
+penguin_call_ 01.wav::AudioStreamWAV::7936954335046556812::1716231966::1716231966::1::::<><>::
+penguin_call_ 02.wav::AudioStreamWAV::4564392845712979485::1716231966::1716231966::1::::<><>::
+penguin_call_ 03.wav::AudioStreamWAV::94730959873725039::1716231966::1716231966::1::::<><>::
+penguin_RIP 01.wav::AudioStreamWAV::400228591879583543::1716231966::1716231966::1::::<><>::
+penguin_RIP 02.wav::AudioStreamWAV::6036020847866519370::1716231966::1716231966::1::::<><>::
+penguin_RIP 03.wav::AudioStreamWAV::1760804727683519367::1716231966::1716231966::1::::<><>::
+penguin_RIP 04.wav::AudioStreamWAV::3264286072804429496::1716231966::1716231966::1::::<><>::
+penguin_RIP 05.wav::AudioStreamWAV::7149207384743783791::1716231966::1716231966::1::::<><>::
 ::res://pistol/::1715885013
 pistol.png::CompressedTexture2D::6081771334990092076::1715885013::1715885013::1::::<><>::
 projectile.png::CompressedTexture2D::7550039277502144023::1715885013::1715885013::1::::<><>::
