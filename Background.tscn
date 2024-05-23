@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://cbaegx555385e" path="res://Yoki Penguin.jpeg" id="1_1264k"]
 [ext_resource type="PackedScene" uid="uid://doi82ejjxi16o" path="res://start_menu.tscn" id="1_pkrx4"]
 
-[node name="ColorRect" type="ColorRect"]
+[node name="Background" type="ColorRect"]
 offset_right = 1912.0
 offset_bottom = 1076.0
 color = Color(0, 0, 0, 0.121569)

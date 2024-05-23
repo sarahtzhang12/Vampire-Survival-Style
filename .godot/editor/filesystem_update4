@@ -1,2 +1,5 @@
 res://survivors_game.tscn
 res://player.tscn
+res://color_rect.tscn
+res://Background.tscn
+res://survivors_game.gd

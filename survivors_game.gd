@@ -1,5 +1,10 @@
 extends Node2D
 
+@onready var let_it_go = %LetItGo
+
+func _ready():
+	%LetItGo.play()
+
 func spawn_mob():
 	var new_mob = preload("res://mob.tscn").instantiate()
 	%PathFollow2D.progress_ratio = randf()
@@ -7,12 +12,14 @@ func spawn_mob():
 	add_child(new_mob)
 	
 
-
 func _on_timer_timeout():
 	spawn_mob()
-
+	
 
 func _on_player_health_depleted():
 	%GameOver.visible = true 
 	get_tree().paused = true 
+	%LetItGo.stop()
 	%Dead.play()
+	
+

@@ -1,3 +1,4 @@
+AudioStreamPlayer
 Button
 VBoxContainer
 CenterContainer
@@ -12,4 +13,3 @@ CanvasLayer
 PathFollow2D
 Path2D
 ProgressBar
-Camera2D
