@@ -1,5 +1,7 @@
 extends Area2D
 
+var health = 100.0
+
 func _ready() -> void:
 	area_entered.connect(_on_area_entered) 
 	play_floating_animation()
