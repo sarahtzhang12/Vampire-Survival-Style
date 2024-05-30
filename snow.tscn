@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://neq2hsr0lnvb"]
+
+[ext_resource type="Script" path="res://Snow.gd" id="1_flcb4"]
+
+[node name="Snow" type="Node2D"]
+script = ExtResource("1_flcb4")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(5, 5)
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -125)
+amount = 10
+lifetime = 0.6
+emission_shape = 3
+emission_rect_extents = Vector2(130, 1)
+gravity = Vector2(-200, 980)
+scale_amount_min = 0.2

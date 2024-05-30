@@ -1,3 +1,6 @@
+Camera2D
+CPUParticles2D
+CollisionPolygon2D
 AudioStreamPlayer
 Button
 VBoxContainer

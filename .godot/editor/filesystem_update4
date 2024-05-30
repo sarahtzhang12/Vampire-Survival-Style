@@ -1,4 +1,4 @@
 res://survivors_game.tscn
-res://Bullet.gd
-res://bullet.tscn
-res://player.gd
+res://snow.tscn
+res://Snow.gd
+res://survivors_game.gd

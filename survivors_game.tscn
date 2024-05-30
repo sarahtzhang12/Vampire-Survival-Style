@@ -1,10 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://ba5l50fa41m70"]
+[gd_scene load_steps=7 format=3 uid="uid://jyv77skn4j8y"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_6y6wp"]
 [ext_resource type="PackedScene" uid="uid://bckyn062wm7v4" path="res://player.tscn" id="1_aktsg"]
 [ext_resource type="PackedScene" uid="uid://tyv7ucdh4cua" path="res://pine_tree.tscn" id="2_5l7mw"]
 [ext_resource type="AudioStream" uid="uid://fx4yavxmea60" path="res://Penguin/penguin_RIP 01.wav" id="5_44xgs"]
-[ext_resource type="AudioStream" path="res://Frozen - Let it Go.mp3" id="6_0dhnp"]
+[ext_resource type="AudioStream" uid="uid://1mn6du0tdnwe" path="res://Frozen - Let it Go.mp3" id="6_0dhnp"]
 
 [sub_resource type="Curve2D" id="Curve2D_bjfmy"]
 _data = {
@@ -22,6 +22,7 @@ layer = -30
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1916.0
 offset_bottom = 1073.0
+color = Color(0.309804, 0.729412, 0.941176, 0.67451)
 
 [node name="Player" parent="." instance=ExtResource("1_aktsg")]
 position = Vector2(848, 559)

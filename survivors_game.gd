@@ -21,5 +21,7 @@ func _on_player_health_depleted():
 	get_tree().paused = true 
 	%LetItGo.stop()
 	%Dead.play()
+
+
 	
 
