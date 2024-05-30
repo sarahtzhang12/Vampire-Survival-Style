@@ -29,8 +29,8 @@ color = Color(0.309804, 0.729412, 0.941176, 0.67451)
 position = Vector2(848, 559)
 
 [node name="Path2D" type="Path2D" parent="Player"]
-position = Vector2(-649.864, -359.649)
-scale = Vector2(0.804214, 0.820046)
+position = Vector2(-659.385, -359.649)
+scale = Vector2(0.76308, 0.820046)
 curve = SubResource("Curve2D_bjfmy")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
@@ -38,100 +38,103 @@ unique_name_in_owner = true
 position = Vector2(-229, -237)
 
 [node name="PineTree4" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1562, 747)
+position = Vector2(1709, 759)
 
 [node name="PineTree7" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1355, 510)
+position = Vector2(2687, 1094)
 
 [node name="PineTree9" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(162, 508)
 
 [node name="PineTree10" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1715, 180)
+position = Vector2(2036, 214)
 
 [node name="PineTree12" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(182, 113)
 
 [node name="PineTree13" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(543, 511)
+position = Vector2(1403, 416)
 
 [node name="PineTree14" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(902, 120)
 
 [node name="PineTree15" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-212, 274)
+position = Vector2(-683, 60)
 
 [node name="PineTree43" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-107, -708)
+position = Vector2(-490, -575)
 
 [node name="PineTree44" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(558, -412)
+position = Vector2(783, -226)
 
 [node name="PineTree45" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1831, -925)
+position = Vector2(2924, -460)
 
 [node name="PineTree46" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1894, -277)
+position = Vector2(2066, -265)
 
 [node name="PineTree47" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1034, -881)
+position = Vector2(720, -538)
 
 [node name="PineTree48" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1181, -273)
+position = Vector2(1326, -360)
 
 [node name="PineTree49" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(423, -899)
+position = Vector2(204, -557)
 
 [node name="PineTree16" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-615, 511)
+position = Vector2(-1074, 850)
 
 [node name="PineTree17" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-1206, 1440)
+position = Vector2(-678, 586)
 
 [node name="PineTree50" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-678, 1254)
+position = Vector2(-246, 1310)
 
 [node name="PineTree52" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-356, 920)
+position = Vector2(-669, 1480)
 
 [node name="PineTree53" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-1744, 572)
+position = Vector2(-994, -143)
 
 [node name="PineTree54" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-1124, 446)
+position = Vector2(-1216, 262)
 
 [node name="PineTree18" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(169, 1149)
+position = Vector2(479, 1314)
+
+[node name="PineTree18" parent="PineTree18" instance=ExtResource("2_5l7mw")]
+position = Vector2(-72, 304)
 
 [node name="PineTree56" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-195, -205)
+position = Vector2(-119, -303)
 
 [node name="PineTree55" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(-503, 32)
+position = Vector2(-225, 483)
 
 [node name="PineTree20" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(892, 876)
+position = Vector2(518, 859)
 
 [node name="PineTree24" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1342, 1722)
+position = Vector2(-793, 1121)
 
 [node name="PineTree28" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(648, 1330)
+position = Vector2(2666, 270)
 
 [node name="PineTree33" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1722, 1220)
+position = Vector2(1446, 1716)
 
 [node name="PineTree35" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1959, 1868)
+position = Vector2(2093, 1641)
 
 [node name="PineTree59" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(2697, 1629)
+position = Vector2(2419, 1314)
 
 [node name="PineTree58" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(2502, 1194)
+position = Vector2(2016, 1321)
 
 [node name="PineTree36" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(2939, 822)
+position = Vector2(2942, 614)
 
 [node name="PineTree37" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(3213, 477)
@@ -140,34 +143,34 @@ position = Vector2(3213, 477)
 position = Vector2(2411, -182)
 
 [node name="PineTree60" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1446, -771)
+position = Vector2(2299, -543)
 
 [node name="PineTree40" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(2883, 1)
 
 [node name="PineTree41" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(2189, 138)
+position = Vector2(1707, -528)
 
 [node name="PineTree57" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(2351, -676)
+position = Vector2(3219, 68)
 
 [node name="PineTree38" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(2424, 602)
+position = Vector2(2437, 800)
 
 [node name="PineTree29" parent="." instance=ExtResource("2_5l7mw")]
 position = Vector2(653, 1814)
 
 [node name="PineTree30" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(229, 1489)
+position = Vector2(68, 1590)
 
 [node name="PineTree25" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1227, 1052)
+position = Vector2(1047, 1615)
 
 [node name="PineTree26" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1227, 1052)
+position = Vector2(2874, 1309)
 
 [node name="PineTree27" parent="." instance=ExtResource("2_5l7mw")]
-position = Vector2(1227, 1052)
+position = Vector2(1275, 1215)
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.3
@@ -211,7 +214,7 @@ stream = ExtResource("5_44xgs")
 volume_db = 20.0
 
 [node name="Snow" parent="." instance=ExtResource("6_rjmla")]
-position = Vector2(877, -270)
+position = Vector2(1207, -910)
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
