@@ -1,8 +1,3 @@
 res://survivors_game.tscn
-res://player.tscn
-res://gun.tscn
-res://characters/happy_boo/happy_boo.tscn
-res://player.gd
-res://mob.gd
-res://Health.gd
-res://health.tscn
+res://Bullet.gd
+res://bullet.tscn
