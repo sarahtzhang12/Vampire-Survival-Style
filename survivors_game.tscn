@@ -1,10 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://ba5l50fa41m70"]
+[gd_scene load_steps=7 format=3 uid="uid://ba5l50fa41m70"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_6y6wp"]
 [ext_resource type="PackedScene" uid="uid://bckyn062wm7v4" path="res://player.tscn" id="1_aktsg"]
 [ext_resource type="PackedScene" uid="uid://tyv7ucdh4cua" path="res://pine_tree.tscn" id="2_5l7mw"]
 [ext_resource type="AudioStream" uid="uid://fx4yavxmea60" path="res://Penguin/penguin_RIP 01.wav" id="5_44xgs"]
-[ext_resource type="PackedScene" path="res://level.tscn" id="5_c6vey"]
 [ext_resource type="AudioStream" path="res://Frozen - Let it Go.mp3" id="6_0dhnp"]
 
 [sub_resource type="Curve2D" id="Curve2D_bjfmy"]
@@ -105,8 +104,6 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 156
 text = "Game Over"
-
-[node name="level" parent="." instance=ExtResource("5_c6vey")]
 
 [node name="LetItGo" type="AudioStreamPlayer" parent="."]
 unique_name_in_owner = true
