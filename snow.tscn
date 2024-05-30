@@ -5,15 +5,13 @@
 [node name="Snow" type="Node2D"]
 script = ExtResource("1_flcb4")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(5, 5)
-
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(0, -125)
-amount = 10
-lifetime = 0.6
+position = Vector2(967, -2)
+amount = 10000
+lifetime = 6.0
 emission_shape = 3
-emission_rect_extents = Vector2(130, 1)
+emission_rect_extents = Vector2(100000, 100)
 gravity = Vector2(-200, 980)
-scale_amount_min = 0.2
+scale_amount_min = 6.0
+scale_amount_max = 6.0

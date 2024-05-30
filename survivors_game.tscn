@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://jyv77skn4j8y"]
+[gd_scene load_steps=8 format=3 uid="uid://jyv77skn4j8y"]
 
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_6y6wp"]
 [ext_resource type="PackedScene" uid="uid://bckyn062wm7v4" path="res://player.tscn" id="1_aktsg"]
 [ext_resource type="PackedScene" uid="uid://tyv7ucdh4cua" path="res://pine_tree.tscn" id="2_5l7mw"]
 [ext_resource type="AudioStream" uid="uid://fx4yavxmea60" path="res://Penguin/penguin_RIP 01.wav" id="5_44xgs"]
 [ext_resource type="AudioStream" uid="uid://1mn6du0tdnwe" path="res://Frozen - Let it Go.mp3" id="6_0dhnp"]
+[ext_resource type="PackedScene" uid="uid://neq2hsr0lnvb" path="res://snow.tscn" id="6_rjmla"]
 
 [sub_resource type="Curve2D" id="Curve2D_bjfmy"]
 _data = {
@@ -114,6 +115,9 @@ stream = ExtResource("6_0dhnp")
 unique_name_in_owner = true
 stream = ExtResource("5_44xgs")
 volume_db = 20.0
+
+[node name="Snow" parent="." instance=ExtResource("6_rjmla")]
+position = Vector2(882, -6)
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
