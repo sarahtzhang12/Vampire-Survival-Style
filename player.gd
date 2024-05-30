@@ -2,8 +2,16 @@ extends CharacterBody2D
 
 signal health_depleted
 var health = 100.0
+var screen_size
+
+func _ready():
+	screen_size = get_viewport_rect().size
+	
 
 func _physics_process(delta):
+	position.x = clamp(position.x, -1000, screen_size.x +1000)
+	position.y = clamp (position.y, 1000 , screen_size.y + 1000 )
+	
 	var direction = Input.get_vector("move_left","move_right","move_up","move_down")
 	velocity = direction * 600
 	move_and_slide()

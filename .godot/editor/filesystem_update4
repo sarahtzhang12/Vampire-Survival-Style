@@ -2,3 +2,5 @@ res://survivors_game.tscn
 res://snow.tscn
 res://Snow.gd
 res://survivors_game.gd
+res://player.gd
+res://player.tscn
